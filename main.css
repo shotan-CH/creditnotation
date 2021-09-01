@@ -1,0 +1,117 @@
+*, ::before, ::after {
+    list-style-type: none;
+    text-decoration: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h1, h2, p {
+    cursor: text;
+}
+
+html {
+    background-color: white;
+}
+
+#headertop {
+    background-color: rgba(255, 127, 127, 0.75);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.headerbottom {
+    background-color: rgba(25, 25, 25, 0.85);
+    height: 70px;
+    width: 100%;
+    font: 16px 'YuGothic', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'メイリオ', 'Meiryo', sans-serif;
+}
+
+#logo {
+    margin: 10px;
+}
+
+.hbleft {
+    float: left;
+}
+
+.hbright {
+    float: right;
+    background-color: rgba(200, 200, 200, 0.3);
+    transition: all 0.5s;
+}
+
+.hbright:hover {
+    background-color: rgba(200, 200, 200, 0.5)
+}
+
+.hbright a {
+    color: white;
+    line-height: 30px;
+    padding: 10px 3em;
+    display: inline-block;
+}
+
+.home {
+    color: white;
+}
+
+.twitter {
+    color: #0abbff;
+}
+
+.youtube {
+    color: #dd2d27;
+}
+
+#sitename {
+    font: normal bold 30px/1.5 'TsukuBRdGothic-Regular', 'TsukuARdGothic-Regular', 'YuGothic', 'Yu Gothic', 'メイリオ', 'Meiryo', 'Osaka', 'ヒラギノ丸ゴ ProN', 'Hiragino Maru Gothic ProN', 'ヒラギノ角ゴシック', 'Hiragino Sans', fantasy;
+}
+
+.about a, .about i {
+    text-decoration: underline;
+}
+
+.about {
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #222;
+}
+
+a:hover {
+    color: #ffcccc;
+}
+
+a:active {
+    color: #222;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #999;
+}
+
+.credittitle {
+    border-left: solid thick red;
+    padding: 10px;
+}
+
+main {
+    padding: 20px 15%;
+    font: 16px 'YuGothic', 'Yu Gothic', 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'メイリオ', 'Meiryo', sans-serif;
+}
+
+main li {
+    padding-left: 5%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
